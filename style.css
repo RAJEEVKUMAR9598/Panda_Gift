@@ -6,28 +6,23 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-/*nav maenu on the left as a unordered list*/
 .navbar{
     display:flex;
     align-items: center;
     padding:20px;
 }
-/*nav maenu on the right as a unordered list*/
 nav{
     flex: 1;
     text-align: right;
 }
-/*nav maenu on the right as a list but without bullet*/
 nav ul{
     display: inline-block;
     list-style-type: none;   
 }
-/*nav maenu on the right as a vertically list with 50px gapping with each with underline*/
 nav ul li{
     display: inline-block;
     margin-right: 50px;   
 }
-/*nav maenu on the right as a vertically list with 50px gapping with each without underline*/
 a{
     text-decoration: none;
     color: #555;
@@ -157,7 +152,6 @@ small{
     color:#555;
 }
 
-/*-----------------------Testimonial -----------------------*/
 .testimonial{
     padding-top: 100px;
 }
@@ -191,7 +185,6 @@ small{
     font-size: 16px;
 }
 
-/*-----------------------Brands -----------------------*/
 .brands{
     margin: 100px auto;
 }
@@ -207,7 +200,6 @@ small{
     filter: grayscale(0);
 }
 
-/*-----------------------Footer -----------------------*/
 .footer{
     background:#000; /*black;*/
     color: #8a8a8a;
@@ -270,7 +262,6 @@ ul{
     display:none;
 }
 
-/*-----------------------media query for menu -----------------------*/
 @media only screen and (max-width:800px){
     nav ul{
         position: absolute;
@@ -297,7 +288,6 @@ ul{
     }
 }
 
-/*-----------------------media query for less than 600 screen size(mobile device) -----------------------*/
 @media only screen and (max-width:600px){
     .row{
         text-align: center;
@@ -322,7 +312,6 @@ ul{
 
 }
 
-/*--------------------all products-----------------------------------------------*/
 .row-2{
     justify-content: space-between;
     margin:100px auto 50px;
@@ -354,7 +343,6 @@ select:focus{
 }
 
 
-/*-----------------------single product details -----------------------*/
 
 .single-product{
     margin-top: 80px;
@@ -402,7 +390,6 @@ input:focus{
 
 
 
-        /*------------------------------ cart items ------------------------------*/
 .cart-page{
     margin: 80px auto;
 }
@@ -457,7 +444,6 @@ th:last-child{
 }
 
 
-        /*------------------------------ account-page ------------------------------*/
 .account-page{
     padding: 50px 0;
     background: radial-gradient(#fff, #ffd6d6);
